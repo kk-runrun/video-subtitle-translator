@@ -1233,7 +1233,7 @@ with st.sidebar:
             help="系统会先下载到本地临时缓存，再复用现有批处理识别流程。",
         )
         st.caption(f"在线链接模式最多 {MAX_BATCH_VIDEOS} 个视频，超出请分批执行。")
-    use_gpu = st.checkbox("启用 EasyOCR GPU", value=True)
+    use_gpu = st.checkbox("启用 EasyOCR GPU", value=False)
     sample_every_n_frames = st.number_input("每 N 帧识别一次", min_value=1, max_value=60, value=5, step=1)
     min_core_chars = st.number_input("最少有效字符数", min_value=2, max_value=20, value=10, step=1)
     conf_threshold = st.slider("OCR置信度阈值", min_value=0.10, max_value=0.95, value=0.90, step=0.05)
