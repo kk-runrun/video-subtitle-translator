@@ -1,11 +1,6 @@
-﻿streamlit
-opencv-python
-easyocr
+streamlit
 pandas
 numpy
+opencv-python-headless
+easyocr
 openpyxl
-pyenchant
-openai
-python-dotenv
-python-docx
-requests
