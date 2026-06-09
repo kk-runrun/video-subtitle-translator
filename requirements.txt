@@ -1,6 +1,7 @@
 streamlit
 pandas
 numpy
-opencv-python-headless
-easyocr
+opencv-python-headless==4.10.0.84
+easyocr==1.7.2
 openpyxl
+Pillow
