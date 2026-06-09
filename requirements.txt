@@ -1,0 +1,11 @@
+﻿streamlit
+opencv-python
+easyocr
+pandas
+numpy
+openpyxl
+pyenchant
+openai
+python-dotenv
+python-docx
+requests
